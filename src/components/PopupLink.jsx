@@ -12,7 +12,7 @@ const PopupLink = ({ url, children }) => {
   };
 
   return (
-    <div>
+    <>
       {/* The clickable text */}
       <span onClick={openPopup} className="text-blue-500 underline cursor-pointer">
         {children}
@@ -29,7 +29,7 @@ const PopupLink = ({ url, children }) => {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 
