@@ -7,15 +7,15 @@ import Card2 from './components/Card2';
 const App = () => {
   return (
     <>
-      <PageWrapper className={"flex justify-center items-center"}>
+      <PageWrapper className={"flex justify-center items-center gap-2"}>
         <div>
-          <h1 className="text-[#3b3b3b] text-7xl font-semibold">
+          <h1 className="text-[#3b3b3b] text-7xl font-semibold whitespace-nowrap">
             Advocate Updates
           </h1>
         </div>
 
-        <div>
-          {/* image here */}
+        <div className='w-full h-full'>
+          <img src="Gemini Star.png" alt="" className='w-full h-full' />
         </div>
       </PageWrapper>
 
@@ -183,6 +183,55 @@ const App = () => {
               Pixel 9 Advocacy Operating Procedure Deck.
             </PopupLink>
           </h2>
+        </div>
+      </PageWrapper>
+
+      <PageWrapper className="py-0">
+        <div className="mx-auto">
+          <h1 className="text-[#3b3b3b] text-7xl text-center font-semibold">
+            Pixel 9 Advocacy Operating Procedure
+          </h1>
+        </div>
+
+        <div className="h-full w-full mt-28 relative">
+          <img src="/Pixel Phone.png" alt="" className="w-[400px] mx-auto object-contain" />
+        </div>
+      </PageWrapper>
+
+      <PageWrapper className={"flex flex-col justify-center items-center gap-16"}>
+        <div className='mx-auto'>
+          <h2 className='text-5xl text-[#3b3b3b] text-center'>
+            Important Links
+          </h2>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 px-4 gap-4">
+          <Card1 className="aspect-square flex justify-center items-center p-6">
+            <PopupLink
+              url="https://docs.google.com/spreadsheets/u/0/d/1GC5MoEdcw4ZF3uA8816xvt3RYK1VVo8t8aPsHf4B83o/edit"
+              textClassNames="text-3xl font-bold"
+            >
+              FALL 2024 | Advocate Device Tracker
+            </PopupLink>
+          </Card1>
+
+          <Card1 className="aspect-square flex justify-center items-center p-6">
+            <PopupLink
+              url="https://docs.google.com/spreadsheets/u/0/d/1R9nLhPBYStKymTBnmPZ7xdMsoZtecdaIqL56aJqFEpM/edit"
+              textClassNames="text-3xl font-bold"
+            >
+              FALL 2024 | TSM Advocacy Device Tracker
+            </PopupLink>
+          </Card1>
+
+          <Card1 className="aspect-square flex justify-center items-center p-6">
+            <PopupLink
+              url="https://docs.google.com/presentation/d/1O05hcBaktONcV7ApXkwah8BIhPkhCGEc-I3qwSqqkmI/edit#slide=id.g2ceb1870ce4_0_164"
+              textClassNames="text-3xl font-bold"
+            >
+              Ph.G and Advocacy Device Returns & Replacements
+            </PopupLink>
+          </Card1>
         </div>
       </PageWrapper>
     </>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { twMerge } from 'tailwind-merge';
 
-const PopupLink = ({ url, children }) => {
+const PopupLink = ({ url, children, textClassNames }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const openPopup = () => {
@@ -14,7 +15,13 @@ const PopupLink = ({ url, children }) => {
   return (
     <>
       {/* The clickable text */}
-      <span onClick={openPopup} className="text-blue-500 underline cursor-pointer">
+      <span
+        onClick={openPopup}
+        className={twMerge(
+          "text-blue-500 underline cursor-pointer",
+          textClassNames,
+        )}
+      >
         {children}
       </span>
 
