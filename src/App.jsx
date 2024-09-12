@@ -470,6 +470,66 @@ const App = () => {
           </Card1>
         </div>
       </PageWrapper>
+
+      <PageWrapper>
+        Page 12
+      </PageWrapper>
+
+      <PageWrapper>
+        Page 13
+      </PageWrapper>
+
+      <PageWrapper className={"flex flex-col justify-center items-center gap-12"}>
+        <div className='mx-auto'>
+          <h2 className='text-center text-5xl text-[#666666]'>
+            ESRI Admin Cadence
+          </h2>
+        </div>
+
+        <div className="grid md:grid-cols-2 px-4 gap-10">
+          <Card1 className="flex flex-col gap-6 justify-center items-center p-20 relative">
+            <p className="text-2xl text-[#3b3b3b]">
+              <span className="font-bold text-black">
+                Request Submission Date:<br />
+              </span>
+              Monday - Wednesday<br />
+            </p>
+            
+            <p className="text-2xl text-[#3b3b3b]">
+              <span className="font-bold text-black">
+                Actioned By Date:<br />
+              </span>
+              Same week by EOD Friday<br />
+            </p>
+          </Card1>
+
+          <Card1 className="flex flex-col gap-6 justify-center items-center p-10 relative">
+            <p className="text-2xl text-[#3b3b3b]">
+              <span className="font-bold text-black">
+                Request Submission Date:<br />
+              </span>
+              Thurday - Friday<br />
+            </p>
+            
+            <p className="text-2xl text-[#3b3b3b]">
+              <span className="font-bold text-black">
+                Actioned By Date:<br />
+              </span>
+              Same week by EOD Friday<br />
+            </p>
+          </Card1>
+        </div>
+
+        <Card1 className={"w-full px-10 py-8"}>
+          <p className='text-2xl'>
+            The backend of the survery will be updated{" "}
+            <span className='font-bold'>
+              EOD Friday{" "}
+            </span>
+            so that first thing Moneday, the backend advocate data will be up to date.
+          </p>
+        </Card1>
+      </PageWrapper>
     </>
   );
 }
