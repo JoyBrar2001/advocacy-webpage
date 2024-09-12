@@ -472,11 +472,105 @@ const App = () => {
       </PageWrapper>
 
       <PageWrapper>
-        Page 12
+        <div className='mx-auto'>
+          <h2 className='text-center text-5xl text-[#666666]'>
+            ESRI Instructions Pt. 1
+          </h2>
+        </div>
+
+        <p className='text-xl text-[#666666] text-center font-bold italic max-w-[640px] mx-auto mt-6 px-4 py-3 border-2 border-black/30'>
+          <span className='underline'>
+            Login Credentials<br />
+          </span>
+          Google.fieldteam<br />
+          Google2024!
+        </p>
+
+        <div className="flex px-4 gap-2 mt-12 max-w-[960px] mx-auto min-h-96 h-full">
+          <Card1 className="flex flex-col flex-1 justify-center items-center p-6 relative">
+            <p className='text-[#3b3b3b] text-center text-lg'>
+              Download{" "}
+              <PopupLink url={"https://play.google.com/store/apps/details?id=com.esri.survey123&pcampaignid=web_share"}>
+                ArcGIS Survery123 App{" "}
+              </PopupLink>
+              to your phone or tablet.
+            </p>
+          </Card1>
+
+          <Card1 className="flex flex-col flex-1 justify-center items-center p-6 relative">
+            <p className='text-[#3b3b3b] text-center text-lg'>
+              Log in using the credentials highlighted above.
+            </p>
+          </Card1>
+
+          <Card1 className="flex flex-col flex-1 justify-center items-center p-6 relative">
+            <p className='text-[#3b3b3b] text-center text-lg'>
+              Download the survey 'Fall 2024 Pixel 9 Google 1P Advocacy'
+            </p>
+          </Card1>
+
+          <Card1 className="flex flex-col flex-[2] justify-center items-center p-6 relative">
+            <p className='text-[#3b3b3b] text-center text-lg'>
+              Anytime you want to submit a survey, make sure you refresh/download any survey updates. If this is not done before you submit yoursurvey, it will NOT go through the system.
+            </p>
+          </Card1>
+        </div>
       </PageWrapper>
 
       <PageWrapper>
-        Page 13
+        <div className='mx-auto'>
+          <h2 className='text-center text-5xl text-[#666666]'>
+            ESRI Instructions Pt. 2
+          </h2>
+        </div>
+
+        <div className="flex px-4 gap-2 mt-12 max-w-[960px] mx-auto min-h-96 h-full">
+          <Card1 className="flex flex-col flex-1 justify-center items-center p-6 relative">
+            <p className='text-[#3b3b3b] text-center text-lg'>
+              Select the{" "}
+              <span className="font-bold">
+                'Collect'{" "}
+              </span>
+              button & fill out the survery with your Area, Territory & the Carrier for the advocate you want to change.
+            </p>
+          </Card1>
+
+          <Card1 className="flex flex-col flex-1 justify-center items-center p-6 relative">
+            <p className='text-[#3b3b3b] text-center text-lg'>
+              Choose the advocate slot from the drop down & pick what type of change is needed for the location and answer the questions that follow:
+            </p>
+
+            <ul className='text-[#3b3b3b] text-left'>
+              <li>1. Monthly Check In</li>
+              <li>2. Program Terminations</li>
+              <li>3. Rep Replacements</li>
+              <li>4. Rep Relocations</li>
+            </ul>
+          </Card1>
+
+          <Card1 className="flex flex-col flex-1 justify-center items-center p-6 relative">
+            <p className='text-[#3b3b3b] text-center text-lg'>
+              When everything has been filled out, click the{" "}
+              <span className='font-bold'>
+                check mark{" "}
+              </span>
+              to submit yout request.
+            </p>
+          </Card1>
+
+          <Card1 className="flex flex-col flex-1 justify-center items-center p-6 relative">
+            <p className='text-[#3b3b3b] text-center text-lg'>
+              When everything has been filled out, click the{" "}
+              <span className='font-bold'>
+                'Send Now'.
+              </span>
+            </p>
+
+            <p className='text-[#3b3b3b] text-center text-lg'>
+              If you do not select this button, the survey will not go into the system.
+            </p>
+          </Card1>
+        </div>
       </PageWrapper>
 
       <PageWrapper className={"flex flex-col justify-center items-center gap-12"}>
@@ -494,7 +588,7 @@ const App = () => {
               </span>
               Monday - Wednesday<br />
             </p>
-            
+
             <p className="text-2xl text-[#3b3b3b]">
               <span className="font-bold text-black">
                 Actioned By Date:<br />
@@ -510,7 +604,7 @@ const App = () => {
               </span>
               Thurday - Friday<br />
             </p>
-            
+
             <p className="text-2xl text-[#3b3b3b]">
               <span className="font-bold text-black">
                 Actioned By Date:<br />
