@@ -198,9 +198,9 @@ const App = () => {
         </div>
       </PageWrapper>
 
-      <PageWrapper className={"flex flex-col justify-center items-center gap-16"}>
+      <PageWrapper className={"flex flex-col justify-center items-center gap-12"}>
         <div className='mx-auto'>
-          <h2 className='text-5xl text-[#3b3b3b] text-center'>
+          <h2 className='text-center text-5xl text-[#666666]'>
             Important Links
           </h2>
         </div>
@@ -231,6 +231,242 @@ const App = () => {
             >
               Ph.G and Advocacy Device Returns & Replacements
             </PopupLink>
+          </Card1>
+        </div>
+      </PageWrapper>
+
+      <PageWrapper className={"flex flex-col justify-center items-center gap-12"}>
+        <div className='mx-auto'>
+          <h2 className='text-center text-5xl text-[#666666]'>
+            Follow the Advocacy Device Return Shipping Process when...
+          </h2>
+        </div>
+
+        <div className="grid md:grid-cols-2 max-w-[840px] px-4 gap-10">
+          <Card1 className="aspect-square flex justify-center items-center p-6 relative">
+            <div className="absolute flex justify-center items-center bg-white size-12 rounded-full top-0 left-0 -translate-x-1/2 -translate-y-1/2 border-[3px] border-black/30 shadow-lg">
+              <h2 className="text-2xl text-[#3b3b3b]">
+                1
+              </h2>
+            </div>
+
+            <p className="text-2xl text-[#3b3b3b]">
+              Device is damaged and approved for replacement<br />
+              <span className="font-bold text-black">
+                (see slide 15)
+              </span>
+            </p>
+          </Card1>
+
+          <Card1 className="aspect-square flex justify-center items-center p-6 relative">
+            <div className="absolute flex justify-center items-center bg-white size-12 rounded-full top-0 left-0 -translate-x-1/2 -translate-y-1/2 border-[3px] border-black/30 shadow-lg">
+              <h2 className="text-2xl text-[#3b3b3b]">
+                2
+              </h2>
+            </div>
+
+            <p className="text-2xl text-[#3b3b3b]">
+              Device is damaged and approved for replacement<br />
+              <span className="font-bold text-black">
+                (see slide 15)
+              </span>
+            </p>
+          </Card1>
+        </div>
+
+        <Card1 className={"w-full px-6 py-4"}>
+          <p className='text-xl text-[#3b3b3b]'>
+            See the device return guide{" "}
+            <PopupLink url={"https://docs.google.com/presentation/d/1O05hcBaktONcV7ApXkwah8BIhPkhCGEc-I3qwSqqkmI/edit#slide=id.g2ceb1870ce4_0_164"}>
+              HERE{" "}
+            </PopupLink>
+            for more information. The Advocate{" "}
+            <span className="font-bold underline">
+              OR{" "}
+            </span>
+            their Manager should complete the{" "}
+            <PopupLink url={"https://wkf.ms/3Ko4FIO"}>
+              Return Form{" "}
+            </PopupLink>
+            for one of the 2 scenarios below.
+          </p>
+
+          <p className='text-xl font-bold'>
+            If neither the advocate, nor the manager can complete the form. You should talk to your ASM about completing the form yourself.
+          </p>
+        </Card1>
+      </PageWrapper>
+
+      <PageWrapper>
+        Page 7
+      </PageWrapper>
+
+      <PageWrapper>
+        Page 8
+      </PageWrapper>
+
+      <PageWrapper>
+        <div className='mx-auto'>
+          <h2 className='text-center text-5xl text-[#666666]'>
+            Additional options to Terminate Advocacy Program when...
+          </h2>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 px-4 gap-4 mt-12 max-w-[960px] mx-auto">
+          <Card1 className="aspect-square flex justify-center items-center p-6 relative">
+            <h2 className='text-2xl text-[#3b3b3b]'>
+              Advocate{" "}
+              <span className="font-bold">
+                lost the device.
+              </span>
+            </h2>
+
+            <div className="absolute flex justify-center items-center bg-white size-12 rounded-full top-0 left-0 -translate-x-1/2 -translate-y-1/2 border-[3px] border-black/30 shadow-lg">
+              <h2 className="text-2xl text-[#3b3b3b]">
+                1
+              </h2>
+            </div>
+          </Card1>
+
+          <Card1 className="aspect-square flex justify-center items-center p-6 relative">
+            <h2 className='text-2xl text-[#3b3b3b]'>
+              Advocate{" "}
+              <span className="font-bold">
+                sold the device{" "}
+              </span>
+              online or in-person.
+            </h2>
+
+            <div className="absolute flex justify-center items-center bg-white size-12 rounded-full top-0 left-0 -translate-x-1/2 -translate-y-1/2 border-[3px] border-black/30 shadow-lg">
+              <h2 className="text-2xl text-[#3b3b3b]">
+                2
+              </h2>
+            </div>
+          </Card1>
+
+          <Card1 className="aspect-square flex justify-center items-center p-6 relative">
+            <h2 className='text-2xl text-[#3b3b3b]'>
+              Advocate{" "}
+              <span className="font-bold">
+                stole the device.
+              </span>
+            </h2>
+
+            <div className="absolute flex justify-center items-center bg-white size-12 rounded-full top-0 left-0 -translate-x-1/2 -translate-y-1/2 border-[3px] border-black/30 shadow-lg">
+              <h2 className="text-2xl text-[#3b3b3b]">
+                3
+              </h2>
+            </div>
+          </Card1>
+        </div>
+      </PageWrapper>
+
+      <PageWrapper>
+        <div className='mx-auto'>
+          <h2 className='text-center text-5xl text-[#666666]'>
+            Choose an Advocate Represntative Replacement when...
+          </h2>
+        </div>
+
+        <p className='text-lg text-[#666666] text-center font-bold italic max-w-[640px] mx-auto mt-6 '>
+          Only start the survey when you, the TSM,{" "}
+          <span className="underline">
+            HAVE THE DEVICE{" "}
+          </span>
+          in your possession that needs to be reallocated.
+        </p>
+
+        <div className="grid md:grid-cols-2 px-4 gap-12 mt-12 max-w-[960px] mx-auto">
+          <Card1 className="aspect-square flex justify-center items-center p-6 relative">
+            <h2 className='text-2xl text-[#3b3b3b]'>
+              You have a{" "}
+              <span className="font-bold">
+                higher performing approved advocate{" "}
+              </span>
+              that is ready to receive a device in the{" "}
+              <span className="font-bold">
+                SAME{" "}
+              </span>
+              store.
+            </h2>
+
+            <div className="absolute flex justify-center items-center bg-white size-12 rounded-full top-0 left-0 -translate-x-1/2 -translate-y-1/2 border-[3px] border-black/30 shadow-lg">
+              <h2 className="text-2xl text-[#3b3b3b]">
+                1
+              </h2>
+            </div>
+          </Card1>
+
+          <Card1 className="aspect-square flex justify-center items-center p-6 relative">
+            <h2 className='text-2xl text-[#3b3b3b]'>
+              Current advocate is{" "}
+              <span className="font-bold">
+                leaving the store{" "}
+              </span>
+              and you have another{" "}
+              <span className="font-bold">
+                viable candidate{" "}
+              </span>
+              in the{" "}
+              <span className="font-bold">
+                SAME{" "}
+              </span>
+              store.
+            </h2>
+
+            <div className="absolute flex justify-center items-center bg-white size-12 rounded-full top-0 left-0 -translate-x-1/2 -translate-y-1/2 border-[3px] border-black/30 shadow-lg">
+              <h2 className="text-2xl text-[#3b3b3b]">
+                2
+              </h2>
+            </div>
+          </Card1>
+        </div>
+      </PageWrapper>
+
+      <PageWrapper>
+        <div className='mx-auto'>
+          <h2 className='text-center text-5xl text-[#666666]'>
+            Choose an Relocate Advocate when...
+          </h2>
+        </div>
+
+        <p className='text-lg text-[#666666] text-center font-bold italic max-w-[640px] mx-auto mt-6 '>
+          Only start the survey when you, the TSM, have the device that needs to be reallocated.
+        </p>
+
+        <div className="grid md:grid-cols-2 px-4 gap-12 mt-12 max-w-[960px] mx-auto">
+          <Card1 className="aspect-square flex justify-center items-center p-6 relative">
+            <h2 className='text-2xl text-[#3b3b3b]'>
+              Current advocate needs to be replaced, but the{" "}
+              <span className="font-bold">
+                only viable backup is in another location.{" "}
+              </span>
+            </h2>
+
+            <div className="absolute flex justify-center items-center bg-white size-12 rounded-full top-0 left-0 -translate-x-1/2 -translate-y-1/2 border-[3px] border-black/30 shadow-lg">
+              <h2 className="text-2xl text-[#3b3b3b]">
+                1
+              </h2>
+            </div>
+          </Card1>
+
+          <Card1 className="aspect-square flex justify-center items-center p-6 relative">
+            <h2 className='text-2xl text-[#3b3b3b]'>
+              You, the TSM, believes there is a{" "}
+              <span className="font-bold">
+                better replacement{" "}
+              </span>
+              advocate int{" "}
+              <span className="font-bold">
+                another location{" "}
+              </span>
+            </h2>
+
+            <div className="absolute flex justify-center items-center bg-white size-12 rounded-full top-0 left-0 -translate-x-1/2 -translate-y-1/2 border-[3px] border-black/30 shadow-lg">
+              <h2 className="text-2xl text-[#3b3b3b]">
+                2
+              </h2>
+            </div>
           </Card1>
         </div>
       </PageWrapper>
